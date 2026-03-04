@@ -98,6 +98,7 @@ HTML / CSS / JavaScript	Application structure and styling
 # Author
 
 Athanasios Karageorgos
+
 Oregon State University
 
 Date: March 4, 2026
