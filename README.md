@@ -1,11 +1,11 @@
-Nearest Airport Finder (Turf.js)
+# Nearest Airport Finder (Turf.js)
 
 Interactive web map that identifies the nearest airport to any clicked location using spatial analysis with Turf.js. The application demonstrates client-side geographic analysis, cartographic layout design, and modern web mapping techniques.
 
-Live Map:
+# Live Map:
 https://eientk88.github.io/Turf-Bonus-Nearest-Airport/
 
-Overview
+# Overview
 
 This project visualizes a global airport dataset and allows users to click anywhere on the map to determine the nearest airport and its distance from the selected location.
 
@@ -13,26 +13,26 @@ The spatial analysis is performed directly in the browser using Turf.js, which c
 
 The interface also includes search functionality, cartographic layout elements, and clear visual cues to communicate spatial relationships.
 
-Features
-Nearest Neighbor Spatial Analysis
+# Features
+# Nearest Neighbor Spatial Analysis
 
 Uses turf.nearestPoint() to identify the closest airport to a clicked location.
 
 Distance between the click location and airport is calculated using Turf distance functions.
 
-Interactive Map
+# Interactive Map
 
 Built with Leaflet.js
 
 Users can click anywhere on the map to trigger nearest airport analysis.
 
-Distance Visualization
+# Distance Visualization
 
 A line is drawn between the clicked location and the nearest airport.
 
 Distance is displayed in kilometers in a popup.
 
-Airport Search
+# Airport Search
 
 Users can search airports by:
 
@@ -46,16 +46,9 @@ Abbreviation
 
 Selecting a result zooms the map to that airport.
 
-Cartographic Design (TODALS)
+# Cartographic Design (TODALS)
 
-Controls are positioned to prevent overlap and improve readability:
-
-Position	Element
-Top Left	Title block
-Top Right	Airport search
-Bottom Left	Map legend
-Bottom Right	North arrow + scale bar
-Dataset
+# Dataset
 
 Airports GeoJSON
 
@@ -78,7 +71,7 @@ Data format:
 GeoJSON FeatureCollection
 Geometry: Point
 
-Technologies Used
+# Technologies Used
 Technology	Purpose
 Leaflet.js	Interactive web mapping
 Turf.js	Spatial analysis and nearest neighbor calculations
@@ -86,7 +79,7 @@ GeoJSON	Geographic data format
 OpenStreetMap	Basemap tiles
 HTML / CSS / JavaScript	Application structure and styling
 
-How It Works
+# How It Works
 
 The airport dataset is loaded from airports.geojson.
 
@@ -102,14 +95,14 @@ A line is drawn between the click point and the airport.
 
 A popup displays airport details and distance.
 
-Author
+# Author
 
 Athanasios Karageorgos
 Oregon State University
 
 Date: March 4, 2026
 
-License
+# License
 
 This project is for educational and academic purposes.
 
