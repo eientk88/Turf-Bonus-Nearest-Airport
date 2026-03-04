@@ -50,7 +50,7 @@ Selecting a result zooms the map to that airport.
 
 # Dataset
 
-Airports GeoJSON
+### Airports GeoJSON
 
 Source dataset contains approximately 893 airport point features with attributes including:
 
@@ -66,7 +66,7 @@ Wikipedia reference
 
 Coordinates
 
-Data format:
+### Data format:
 
 GeoJSON FeatureCollection
 Geometry: Point
@@ -81,19 +81,19 @@ HTML / CSS / JavaScript	Application structure and styling
 
 # How It Works
 
-The airport dataset is loaded from airports.geojson.
+1. The airport dataset is loaded from airports.geojson.
 
-Each airport is rendered as a point on the map.
+2. Each airport is rendered as a point on the map.
 
-When the user clicks the map:
+3. When the user clicks the map:
 
-A point is generated at the click location.
+    (a) A point is generated at the click location.
 
-turf.nearestPoint() identifies the closest airport feature.
+    (b) turf.nearestPoint() identifies the closest airport feature.
 
-A line is drawn between the click point and the airport.
+4. A line is drawn between the click point and the airport.
 
-A popup displays airport details and distance.
+5. A popup displays airport details and distance.
 
 # Author
 
