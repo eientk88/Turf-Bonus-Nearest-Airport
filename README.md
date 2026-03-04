@@ -14,25 +14,25 @@ The spatial analysis is performed directly in the browser using Turf.js, which c
 The interface also includes search functionality, cartographic layout elements, and clear visual cues to communicate spatial relationships.
 
 # Features
-# Nearest Neighbor Spatial Analysis
+### Nearest Neighbor Spatial Analysis
 
 Uses turf.nearestPoint() to identify the closest airport to a clicked location.
 
 Distance between the click location and airport is calculated using Turf distance functions.
 
-# Interactive Map
+### Interactive Map
 
 Built with Leaflet.js
 
 Users can click anywhere on the map to trigger nearest airport analysis.
 
-# Distance Visualization
+### Distance Visualization
 
 A line is drawn between the clicked location and the nearest airport.
 
 Distance is displayed in kilometers in a popup.
 
-# Airport Search
+### Airport Search
 
 Users can search airports by:
 
@@ -46,7 +46,7 @@ Abbreviation
 
 Selecting a result zooms the map to that airport.
 
-# Cartographic Design (TODALS)
+### Cartographic Design (TODALS)
 
 # Dataset
 
